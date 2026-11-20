@@ -1,6 +1,6 @@
 /* Dashboard Volante - service worker: rende l'app disponibile offline.
    Ad ogni aggiornamento dell'app cambiare VERSIONE, così i telefoni scaricano i file nuovi. */
-var VERSIONE = "volante-0.2.1";
+var VERSIONE = "volante-0.2.2";
 var FILE = ["./", "./index.html", "./manifest.webmanifest", "./icons/apple-touch-icon.png", "./icons/icon-192.png", "./icons/icon-512.png"];
 
 self.addEventListener("install", function (e) {
